@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-openmetrics-app",
+  "version": "1.0.0",
+  "description": "Node.js app exporting metrics using OpenMetrics",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": ["nodejs", "openmetrics", "kubernetes"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "prom-client": "15.1.0"
+  }
+}
